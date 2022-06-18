@@ -5,3 +5,7 @@
 ## 서블릿과 파일 업로드2
 * 서블릿을 통한 part를 통해 헤드, 이름등을 가져올 수 있다.
 * part.getSubmittedFileName(), part.getInputStream(), part.write(...)
+
+## 스프링과 파일 업로드
+* 스프링에서 제공하는 MultipartFile으로 데이터 확인 가능
+* file.getOriginalFilename(), file.transferTo()
