@@ -9,3 +9,8 @@
 ## 스프링과 파일 업로드
 * 스프링에서 제공하는 MultipartFile으로 데이터 확인 가능
 * file.getOriginalFilename(), file.transferTo()
+
+## 예제로 구현하는 파일 업로드, 다운로드
+* UrlResource를 통해 파일을 가져올 수 있다.
+* List<UploadFile>와 같이 여러파일을 한번에 리스트로 받을 수 있다.
+* CONTENT_DISPOSITION 헤더를 통해 파일 다운로드 가능
